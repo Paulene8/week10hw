@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*
+#FFBE0B amber
+#FB5607 orange (pantone)
+#FF006E rose
+#8338EC blue violet
+#3A86FF azure
+*/
+
+/* make footer stick to bottom of web page */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #F8F8FF; /* ghostwhite */
+}
+
+h1 {
+    font-family: baskerville, serif;
+    color: #FFBE0B; /* amber */
+    text-shadow:
+    /* blue violet for text-shadow (matches #8338EC)  */
+    1px 1px  rgba(75, 0, 130, 0.8),
+    2px 2px rgba(75, 0, 130, 0.6);
+    text-align: center;
+}
+
+p {
+    font-family: helvetica, sans-serif;
+    color: #301934; /* dark purple */
+    font-size: 18px;
+    line-height: 1.5;
+    padding-top: 10px;
+}
+
+nav {
+    font-family: helvetica, sans-serif;
+    width: 100%;
+    text-align: right;
+    padding: 30px 10px;
+    border-bottom: 4px solid #3A86FF; /* azure */
+    background-color: #FF006E; /* rose */
+
+}
+
+nav a {
+    color: #FFFFFF; /* white */
+    font-size: 20px;
+    text-decoration: none;
+    /* indigo for text-shadow (matches #4B0082)  */
+    text-shadow: 1px 1px 1px rgba(75, 0, 130, 0.8);
+    padding: 15px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    padding-top: 10px;
+}
+
+footer {
+    font-family: helvetica, sans-serif;
+    color: #FFFFFF; /* white */
+    font-size: 20px;
+    /* indigo for text-shadow (matches #4B0082)  */
+    text-shadow: 1px 1px 1px rgba(75, 0, 130, 0.8);
+    text-align: center;
+    border-top: 4px solid #3A86FF; /* azure */
+    background-color: #FB5607; /* orange */
+    padding: 20px;
+    margin-top: auto;
+}
+
